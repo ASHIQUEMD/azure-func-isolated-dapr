@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "DaprPublishOutputBindingIsolated": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7281"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 34100,
+      "useSSL": false
+    }
+  }
+}
